@@ -1,0 +1,154 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/default/default_index/default_index",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/enroll/enroll_index/enroll_index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会议室",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/enroll/enroll_detail/enroll_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会议室预定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my_index/my_index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news_index/news_index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公告",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/enroll/enroll_calendar/enroll_calendar",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会议日程",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/enroll/enroll_join/enroll_join",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "填写资料",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message_index/message_index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "留言信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message_submit/message_submit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交留言",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my_reserve/my_reserve",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的预定",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"backgroundColor": "#f1f1f1",
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#2870E5",
+		"navigationBarTitleText": "会议室预定小程序",
+		"navigationBarTextStyle": "white"
+	},
+	
+	"tabBar": {
+	    "custom": false,
+	    "backgroundColor": "#FFFFFF",
+	    "color": "#999999",
+	    "selectedColor": "#2870E5",
+	    "list": [
+	      {
+	        "pagePath": "pages/default/default_index/default_index",
+	        "text": "首页",
+	        "iconPath": "/static/tabbar/home.png",
+	        "selectedIconPath": "/static/tabbar/home_cur.png"
+	      },
+	      {
+	        "pagePath": "pages/enroll/enroll_index/enroll_index",
+	        "text": "会议室",
+	        "iconPath": "/static/tabbar/enroll.png",
+	        "selectedIconPath": "/static/tabbar/enroll_cur.png"
+	      },
+	      {
+	        "pagePath": "pages/message/message_index/message_index",
+	        "text": "留言",
+	        "iconPath": "/static/tabbar/message.png",
+	        "selectedIconPath": "/static/tabbar/message_cur.png"
+	      },
+	      {
+	        "pagePath": "pages/my/my_index/my_index",
+	        "text": "我的",
+	        "iconPath": "/static/tabbar/my.png",
+	        "selectedIconPath": "/static/tabbar/my_cur.png"
+	      }
+	    ]
+	  },
+	"uniIdRouter": {}
+}

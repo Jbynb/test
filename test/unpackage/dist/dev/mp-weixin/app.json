@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/default/default_index/default_index",
+    "pages/enroll/enroll_index/enroll_index",
+    "pages/enroll/enroll_detail/enroll_detail",
+    "pages/my/my_index/my_index",
+    "pages/news/news_index/news_index",
+    "pages/enroll/enroll_calendar/enroll_calendar",
+    "pages/enroll/enroll_join/enroll_join",
+    "pages/my/login/login",
+    "pages/my/register/register",
+    "pages/message/message_index/message_index",
+    "pages/message/message_submit/message_submit",
+    "pages/my/my_reserve/my_reserve"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundColor": "#f1f1f1",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2870E5",
+    "navigationBarTitleText": "会议室预定小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": false,
+    "backgroundColor": "#FFFFFF",
+    "color": "#999999",
+    "selectedColor": "#2870E5",
+    "list": [
+      {
+        "pagePath": "pages/default/default_index/default_index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/home.png",
+        "selectedIconPath": "/static/tabbar/home_cur.png"
+      },
+      {
+        "pagePath": "pages/enroll/enroll_index/enroll_index",
+        "text": "会议室",
+        "iconPath": "/static/tabbar/enroll.png",
+        "selectedIconPath": "/static/tabbar/enroll_cur.png"
+      },
+      {
+        "pagePath": "pages/message/message_index/message_index",
+        "text": "留言",
+        "iconPath": "/static/tabbar/message.png",
+        "selectedIconPath": "/static/tabbar/message_cur.png"
+      },
+      {
+        "pagePath": "pages/my/my_index/my_index",
+        "text": "我的",
+        "iconPath": "/static/tabbar/my.png",
+        "selectedIconPath": "/static/tabbar/my_cur.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
